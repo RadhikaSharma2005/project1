@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: rgb(30, 28, 28); */
+}
+main {
+  display: flex;
+  /* background-color;black; */
+}
+.fix {
+  position: fixed;
+  height: 100vh;
+  width: 35vw;
+}
+#mainpic {
+  height: 100vh;
+  width: 35vw;
+}
+.hidden {
+  height: 100vh;
+  width: 35vw;
+}
+.division2 {
+  width: 65vw;
+  /* background-color: rgb(30, 28, 28); */
+  height: 100vh;
+}
+#heading {
+  margin-top: 20vw;
+}
+#name {
+  /* color: rgb(244, 234, 234); */
+  text-align: center;
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+#content1 {
+  text-align: center;
+  /* color: rgb(188, 184, 184); */
+  text-transform: capitalize;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0.5em;
+}
+#download1 {
+  text-align: center;
+  margin: 0.9em;
+}
+a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  height: 0.5em;
+  padding: 0.3em;
+  border-radius: 0.1em;
+  background-color: rgb(188, 182, 182);
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.images1 {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 0.3em;
+}
+
+#portfolio {
+  height: 10vh;
+  /* color: gainsboro; */
+  margin: 2em;
+  text-align: left;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-top: 10em;
+}
+
+.line {
+  height: 2.5px;
+  width: 50vw;
+  background-color: rgb(162, 157, 157);
+}
+
+#subs {
+  height: 12em;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 30px;
+}
+
+.likes {
+  width: 10em;
+  text-transform: capitalize;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+#about {
+  margin: 2em;
+  text-align: justify;
+}
+
+#aboutme {
+  text-transform: capitalize;
+  font-size: 4em;
+  font-weight: 400;
+  text-shadow: 3px 3px 2px rgb(102, 101, 101);
+  /* text-decoration-line: underline; */
+}
+
+#about > p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+#line2 {
+  /* display: inline; */
+  height: 3.5px;
+  background-color: black;
+  width: 20em;
+  /* margin: px; */
+}
+
+#line22 {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.points {
+  width: 3.5px;
+  height: 3.5px;
+  margin: 3px;
+  border-radius: 1.75px;
+  background-color: black;
+}
+
+.contacts {
+  height: 10em;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 100px;
+}
+
+#inputs{
+  height: 1em;
+}
+
+#contact1 {
+  height: 2em;
+  /* color: gainsboro; */
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  font-size: 35px;
+  text-transform: capitalize;
+  /* margin-top: 10em; */
+}
+
